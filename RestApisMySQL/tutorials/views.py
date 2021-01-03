@@ -8,7 +8,7 @@ from tutorials.models import Tutorial
 from tutorials.serializers import TutorialSerializer
 from rest_framework.decorators import api_view
 
-#test change on new branch
+
 @api_view(['GET', 'POST', 'DELETE'])
 def tutorial_list(request):
     if request.method == 'GET':
